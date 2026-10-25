@@ -23,3 +23,6 @@ Dans la déclaration d’un paramètre, & veut dire que le paramètre est passé
 # Exercice3:
 
 <img width="1618" height="528" alt="image" src="https://github.com/user-attachments/assets/c82b9114-7835-4682-ba6c-f87d1e76f2c1" />
+
+6. Pourquoi le destructeur de Vehicule doit être virtual :
+   On met virtual pour que l'objet soit détruit complètement.
