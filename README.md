@@ -12,7 +12,8 @@ Par référence : la fonction travaille sur la variable elle-même. La variable 
                         b += 10;
                     }
 Résultat : 15 30
-4. Rôle de l’opérateur &
+
+4. Rôle de l’opérateur & :
 Dans la déclaration d’un paramètre, & veut dire que le paramètre est passé par référence : c’est un autre nom pour la variable de départ, sans copie. Si on modifie le paramètre, la variable d’origine change.
    
 # Exercice2:
