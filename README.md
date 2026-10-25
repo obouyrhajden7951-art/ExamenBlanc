@@ -1,5 +1,6 @@
 # ExamenBlanc
 # Exercice1:
+
 1. Résultat affiché : 15 20
 a est une référence, donc x devient 15. b est une copie, donc y reste 20.
 2. Différence entre passage par valeur et par référence :
