@@ -1,7 +1,20 @@
 # ExamenBlanc
 # Exercice1:
+1. Résultat affiché : 15 20
+a est une référence, donc x devient 15. b est une copie, donc y reste 20.
+2. Différence entre passage par valeur et par référence :
+Par valeur : la fonction travaille sur une copie. La variable d’origine ne change pas.
+Par référence : la fonction travaille sur la variable elle-même. La variable d’origine change.
+3. Modification de la fonction :
 
-
+                    void modifier(int &a, int &b) {
+                        a += 5;
+                        b += 10;
+                    }
+Résultat : 15 30
+4. Rôle de l’opérateur &
+Dans la déclaration d’un paramètre, & veut dire que le paramètre est passé par référence : c’est un autre nom pour la variable de départ, sans copie. Si on modifie le paramètre, la variable d’origine change.
+   
 # Exercice2:
 
 <img width="1626" height="255" alt="image" src="https://github.com/user-attachments/assets/fd5a35ea-779d-4bce-821b-e1acdde3b590" />
